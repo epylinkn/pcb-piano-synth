@@ -1,0 +1,27 @@
+Source:,/Users/anthonybui/Documents/KiCad/pool-piano-synth/pool-piano-synth.kicad_sch,,,,,,
+Date:,"Thursday, May 26, 2022 at 08:40:22 AM",,,,,,
+Tool:,Eeschema (6.0.5-0),,,,,,
+Generator:,/Applications/KiCad/KiCad.app/Contents/SharedSupport/plugins/bom_csv_grouped_by_value.py,,,,,,
+Component Count:,19,,,,,,
+,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Link,Datasheet
+1,1,C1,0.1uF,Device:C_Polarized,Capacitor_THT:CP_Radial_D10.0mm_P5.00mm,https://www.digikey.com/en/products/detail/kemet/C322C104K5R5TA/818105,~
+2,1,D1,1N4148,Diode:1N4148,Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal,https://www.digikey.com/en/products/detail/smc-diode-solutions/1N4148/6022448,https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf
+3,1,D2,GRN,Device:LED,LED_THT:LED_D5.0mm,have,~
+4,1,D3,YEL,Device:LED,LED_THT:LED_D5.0mm,have,~
+5,1,D4,RED,Device:LED,LED_THT:LED_D5.0mm,have,~
+6,2,"J1, J2",Screw_Terminal_01x02,Connector:Screw_Terminal_01x02,TerminalBlock:TerminalBlock_bornier-2_P5.08mm,have,~
+7,1,J3,Conn_01x20_Male,Connector:Conn_01x20_Male,Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical,have,~
+8,1,J4,Conn_01x24_Male,Connector:Conn_01x24_Male,Connector_PinHeader_2.54mm:PinHeader_1x24_P2.54mm_Vertical,have,~
+9,2,"J5, J6",Conn_01x03_Male,Connector:Conn_01x03_Male,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,have,~
+10,1,R1,220,Device:R,Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal,https://www.digikey.com/en/products/detail/te-connectivity-passive-product/ROX1SJ220R/2055978,~
+11,1,R2,470,Device:R,Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal,https://www.digikey.com/en/products/detail/te-connectivity-passive-product/ROX1SJ470R/2381467,~
+12,1,R3,15,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,https://www.amazon.com/dp/B072BL2VX1?psc=1&smid=A2WWHQ25ENKVJ1&ref_=chk_typ_imgToDp,~
+13,2,"R4, R5",68,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,same as above,~
+14,1,U1,6N138,Isolator:6N138,Package_DIP:DIP-8_W7.62mm,https://www.digikey.com/en/products/detail/liteon/6N138/1969179,http://www.onsemi.com/pub/Collateral/HCPL2731-D.pdf
+,,,,,8-pin DIP SOCKET,have,
+15,1,U2,ESP32-DevKitC,Espressif:ESP32-DevKitC,Espressif:ESP32-DevKitC,https://www.amazon.com/HiLetgo-ESP-WROOM-32-Development-Microcontroller-Integrated/dp/B0718T232Z/ref=sr_1_3?crid=12IDA6EQO5UD7&keywords=hiletgo&qid=1653581716&sprefix=hiletgo%2Caps%2C155&sr=8-3,https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32/hw-reference/esp32/get-started-devkitc.html
+,,,,,Female headers,have,
+16,1,U3,Teensy4.1,teensy:Teensy4.1,teensy:Teensy41,have,
+,,,,,stacking female headers,brandon has?,
+,,,,,teensy: audio shield,have,
